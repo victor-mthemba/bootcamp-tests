@@ -4,12 +4,12 @@ describe('The fromWhere function', function(){
         assert.equal(fromWhere('CY'), 'Bellville');
 
 });
-    it('for CJ return Paarl', function(){
+    it('If the reg number starts with CJ return Paarl', function(){
        assert.equal(fromWhere('CJ'), 'Paarl');
 
 });
 
-it('for CA return Cape Town', function(){
+it('If the reg number starts with CA return Cape Town', function(){
     assert.equal(fromWhere('CA'), 'Cape Town');
 
 });

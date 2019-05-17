@@ -4,4 +4,10 @@ describe('The countRegNumber function', function(){
         assert.equal(regCount, 3);
 
 });
+
+it('returns zero if there are no reg numbers in a string', function(){
+    assert.equal(' ', 0);
+
+});
+
 });
