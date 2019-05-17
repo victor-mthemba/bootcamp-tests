@@ -1,20 +1,20 @@
 describe('The fromWhere function', function(){
 
-    it('should return "Belliville" if the reg number starts with CY', function(){
+    it('If the reg number starts with CY return Bellville', function(){
         assert.equal(fromWhere('CY'), 'Bellville');
 
 });
-    it('should return "Paarl" if the reg number starts with CJ', function(){
+    it('for CJ return Paarl', function(){
        assert.equal(fromWhere('CJ'), 'Paarl');
 
 });
 
-it('should return "Cape Town" if the reg number starts with CA', function(){
+it('for CA return Cape Town', function(){
     assert.equal(fromWhere('CA'), 'Cape Town');
 
 });
 
-it('should return "Some other place!" if the reg number starts with CC', function(){
+it('otherwise return Some other place!', function(){
     assert.equal(fromWhere('CC'), 'Some other place!');
 
 });

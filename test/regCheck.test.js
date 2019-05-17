@@ -4,7 +4,7 @@ describe('The regCheck function', function(){
         assert.equal(regCheck('DV 23 NB GP', 'GP'), true);
 
 });
-    it('should return false if plate is for MP', function(){
+    it('otherwise return false', function(){
        assert.equal(regCheck('DV 23 LP MP', 'GP'), false);
 
 });

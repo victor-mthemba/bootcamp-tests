@@ -4,7 +4,7 @@ describe('The isFromBellville function', function(){
         assert.equal(isFromBellville('CY'), true);
 
 });
-    it('if not for Bellville return false', function(){
+    it('otherwise return false', function(){
        assert.equal(isFromBellville('CJ'), false);
 
 });
